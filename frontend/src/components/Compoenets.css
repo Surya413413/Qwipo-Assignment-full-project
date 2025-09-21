@@ -1,0 +1,362 @@
+/* AddressForm.css */
+/* AddressForm.css */
+/* AddressForm.css */
+.address-form {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.address-form h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.address-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.address-form input,
+.address-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: all 0.3s;
+}
+
+.address-form input:focus,
+.address-form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Form Actions */
+.address-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.address-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.address-form .btn-save {
+  background: #1abc9c;
+  color: white;
+}
+
+.address-form .btn-save:hover {
+  background: #16a085;
+}
+
+.address-form .btn-cancel {
+  background: #f4f6f8;
+  color: #2c3e50;
+  border: 1px solid #dcdcdc;
+}
+
+.address-form .btn-cancel:hover {
+  background: #e0e0e0;
+}
+
+/* CustomerForm.css */
+/* CustomerForm.css */
+/* CustomerForm.css */
+.customer-form-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.customer-form-container h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.customer-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.customer-form input,
+.customer-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  transition: all 0.3s;
+}
+
+.customer-form input:focus,
+.customer-form textarea:focus {
+  border-color: #1abc9c;
+  outline: none;
+  box-shadow: 0px 0px 6px rgba(26, 188, 156, 0.4);
+}
+
+/* Error Messages */
+.customer-form .error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.customer-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.customer-form button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.customer-form .btn-submit {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.customer-form .btn-submit:hover {
+  background-color: #16a085;
+}
+
+.customer-form .btn-cancel {
+  background-color: #f4f6f8;
+  color: #2c3e50;
+  border: 1px solid #dcdcdc;
+}
+
+.customer-form .btn-cancel:hover {
+  background-color: #e0e0e0;
+}
+
+/* AddressList.css */
+/* AddressList.css */
+/* AddressList.css */
+/* Container for the entire address list */
+.address-list {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* Section header */
+.address-list h3 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 6px;
+}
+
+/* Each address card */
+.address-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.address-item:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Address details styling */
+.address-item p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.address-item p strong {
+  color: #333;
+}
+
+/* Buttons container (optional if you want buttons side by side) */
+.address-item button {
+  margin-right: 10px;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Edit button */
+.address-item button:first-of-type {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.address-item button:first-of-type:hover {
+  background-color: #45a049;
+}
+
+/* Delete button */
+.address-item button:last-of-type {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.address-item button:last-of-type:hover {
+  background-color: #e53935;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .address-list {
+    padding: 16px;
+  }
+
+  .address-item {
+    padding: 12px;
+  }
+
+  .address-item button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+
+/* CustomerList.css */
+/* CustomerList.css */
+/* CustomerList.css */
+.address-list-mini {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.address-list-mini li {
+  font-size: 13px;
+  color: #555;
+  padding: 2px 0;
+}
+
+.customer-list {
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.customer-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-list th,
+.customer-list td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.customer-list th {
+  background-color: #f4f6f8;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.customer-list tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.customer-list tr:hover {
+  background-color: #f1f7ff;
+}
+
+.customer-list td a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.customer-list td a:hover {
+  text-decoration: underline;
+}
+
+/* Actions */
+.customer-list td button,
+.customer-list td a:last-of-type {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Edit */
+.customer-list td a:last-of-type {
+  background-color: #27ae60;
+  color: white;
+}
+
+.customer-list td a:last-of-type:hover {
+  background-color: #1e8449;
+}
+
+/* Delete */
+.customer-list td button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.customer-list td button:hover {
+  background-color: #c0392b;
+}

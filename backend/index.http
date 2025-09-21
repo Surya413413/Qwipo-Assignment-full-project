@@ -1,0 +1,67 @@
+GET http://localhost:5000/customers
+Content-Type: application/json
+
+###
+POST http://localhost:5000/customers
+Content-Type: application/json
+
+{
+    "first_name": "suresh",
+    "last_name": "banavath",
+    "phone_number": "798748787"
+}
+
+### 
+GET http://localhost:5000/customers/2
+Content-Type: application/json 
+
+### 
+
+PUT http://localhost:5000/customers/2
+Content-Type: application/json
+
+{
+    "first_name": "naresh",
+    "last_name": "banavath",
+    "phone_number": "12345789099"
+}
+
+###    
+DELETE http://localhost:5000/customers/2
+Content-Type: application/json
+
+### 
+DELETE http://localhost:5000/customers
+Content-Type: application/json  
+
+###   
+POST http://localhost:5000/customers/9/addresses
+Content-Type: application/json
+
+ {
+    "address_details": "78 Park Street",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pin_code": "700016"
+  }
+
+
+###    
+GET http://localhost:5000/customers/5/addresses
+
+###    
+PUT http://localhost:5000/addresses/3
+Content-Type: application/json
+
+{
+  "address_details": "456 Brigade Road, Apt 7C",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "pin_code": "560002"
+}
+
+###   
+DELETE http://localhost:5000/addresses/1
+
+
+
